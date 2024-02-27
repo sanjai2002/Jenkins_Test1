@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Z+EiahVTI8JuthgAM9Mc1i1iWM5SdaNz05w4kLAijIzrcMVI85e3XBjfw57nrafiR3qjtUHtqVuyR9SylgaxIQ==",
+  "dgSpecHash": "b7Nq952WbCDC6Ew0tQVpD6dbki08XOex633iQycT/wsPEi7iOu40beLbmZvLcXbclu+Kn3h6Kd2t6pzNmBrD4w==",
   "success": true,
-  "projectFilePath": "D:\\Jenkins\\Practice1\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Jenkins\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sanjai.harikrishnan\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
   "logs": []
 }

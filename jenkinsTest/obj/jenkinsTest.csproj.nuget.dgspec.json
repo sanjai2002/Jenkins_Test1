@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Jenkins\\Practice1\\PracticeJenkins\\jenkinsTest\\jenkinsTest.csproj": {}
+    "D:\\Jenkins\\PracticeJenkins\\jenkinsTest\\jenkinsTest.csproj": {}
   },
   "projects": {
-    "D:\\Jenkins\\Practice1\\PracticeJenkins\\jenkinsTest\\jenkinsTest.csproj": {
+    "D:\\Jenkins\\PracticeJenkins\\jenkinsTest\\jenkinsTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Jenkins\\Practice1\\PracticeJenkins\\jenkinsTest\\jenkinsTest.csproj",
+        "projectUniqueName": "D:\\Jenkins\\PracticeJenkins\\jenkinsTest\\jenkinsTest.csproj",
         "projectName": "jenkinsTest",
-        "projectPath": "D:\\Jenkins\\Practice1\\PracticeJenkins\\jenkinsTest\\jenkinsTest.csproj",
+        "projectPath": "D:\\Jenkins\\PracticeJenkins\\jenkinsTest\\jenkinsTest.csproj",
         "packagesPath": "C:\\Users\\sanjai.harikrishnan\\.nuget\\packages\\",
-        "outputPath": "D:\\Jenkins\\Practice1\\PracticeJenkins\\jenkinsTest\\obj\\",
+        "outputPath": "D:\\Jenkins\\PracticeJenkins\\jenkinsTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Jenkins\\Practice1\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj": {
-                "projectPath": "D:\\Jenkins\\Practice1\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj"
+              "D:\\Jenkins\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj": {
+                "projectPath": "D:\\Jenkins\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "D:\\Jenkins\\Practice1\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj": {
+    "D:\\Jenkins\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Jenkins\\Practice1\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj",
+        "projectUniqueName": "D:\\Jenkins\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj",
         "projectName": "PracticeJenkins",
-        "projectPath": "D:\\Jenkins\\Practice1\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj",
+        "projectPath": "D:\\Jenkins\\PracticeJenkins\\PracticeJenkins\\PracticeJenkins.csproj",
         "packagesPath": "C:\\Users\\sanjai.harikrishnan\\.nuget\\packages\\",
-        "outputPath": "D:\\Jenkins\\Practice1\\PracticeJenkins\\PracticeJenkins\\obj\\",
+        "outputPath": "D:\\Jenkins\\PracticeJenkins\\PracticeJenkins\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,6 +128,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
