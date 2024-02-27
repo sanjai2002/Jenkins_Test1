@@ -1,4 +1,3 @@
-[12:40 PM] Ashwin Kumar Maheswaran
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 
 USER app
@@ -15,7 +14,7 @@ ARG BUILD_CONFIGURATION=Release
 
 WORKDIR /src
 
-COPY ["JenkinsDemo.csproj", "."]
+COPY ["PracticeJenkins.csproj", "."]
 
 RUN dotnet restore "./././JenkinsDemo.csproj"
 
